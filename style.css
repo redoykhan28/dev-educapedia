@@ -1,0 +1,44 @@
+/* banner space  */
+.section-space {
+
+    margin-top: 80px;
+}
+
+/* darken carousell */
+.carousel-item {
+
+    max-height: 600px;
+
+}
+
+.carousel-item::before {
+
+    content: "";
+    background-color: #000;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.7;
+
+}
+
+
+/* mobile screen  */
+@media screen and (max-width:576px) {
+
+    /* carousell  */
+    .h1 {
+
+        font-size: 20px;
+    }
+
+    .img {
+
+        height: 400px;
+    }
+
+
+}
